@@ -13,7 +13,7 @@ def find_min_in_nested_arrays(src)
     daily_low_temp << min_temp
     row_index += 1 
   end
-  
+  daily_low_temp
 end
 
 # src will be an array of arrays of integers
