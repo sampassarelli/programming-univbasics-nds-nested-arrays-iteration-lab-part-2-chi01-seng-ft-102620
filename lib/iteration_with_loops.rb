@@ -1,5 +1,5 @@
 def find_min_in_nested_arrays(src)
-  daily_low_temp = []
+  array_of_min_temp = []
   row_index = 0 
   while row_index < src.count do 
     element_index = 0 
@@ -10,10 +10,10 @@ def find_min_in_nested_arrays(src)
         end
         element_index += 1
       end
-    daily_low_temp << min_temp
+    array_of_min_temp << min_temp
     row_index += 1 
   end
-  daily_low_temp
+  array_of_min_temp
 end
 
 # src will be an array of arrays of integers
